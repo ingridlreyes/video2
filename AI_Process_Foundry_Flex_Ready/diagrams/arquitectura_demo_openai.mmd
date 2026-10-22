@@ -1,0 +1,18 @@
+flowchart TB
+  U[CLI local o HTTP Functions] --> RAW[Blob raw: video y VTT/SRT/JSON]
+  U --> JOB[analysis: trabajo y plan completo]
+  TIMER[Functions Flex Consumption: temporizador] --> WORKER[Motor compartido: una unidad reanudable]
+  CLI[CLI: mismo motor] --> WORKER
+  JOB --> WORKER
+  RAW --> MEDIA[FFmpeg: rangos del video y segmentos temporales]
+  MEDIA --> FRAMES[analysis: capturas con tiempos absolutos]
+  MEDIA --> IN{Transcripción suministrada}
+  IN -->|Sí| NORMAL[Normalización VTT / SRT / JSON]
+  IN -->|No y autorizado| MAI[Adaptador MAI-Transcribe-2: pendiente por defecto]
+  MAI --> NORMAL
+  FRAMES --> PROBE[Verificar GPT-6.1 Sol: imágenes + Responses v1 + JSON Schema]
+  PROBE --> VISION[Deployment por entorno: análisis por lotes]
+  NORMAL --> VISION
+  VISION --> CHECK[analysis: checkpoints por lote y segmento]
+  CHECK --> DOC[PowerPoint y Word por partes: todas las evidencias]
+  DOC --> DELIVERY[delivery: archivos e índice completo]

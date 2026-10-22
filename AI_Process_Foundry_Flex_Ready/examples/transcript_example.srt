@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:05,000
+Ejemplo de formato: abrir la pantalla inicial.
+
+2
+00:00:05,000 --> 00:00:10,000
+Ejemplo de formato: revisar los datos visibles.

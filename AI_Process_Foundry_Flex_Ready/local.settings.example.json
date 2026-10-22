@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "<conexión a la cuenta de Storage existente>",
+    "AZURE_STORAGE_CONNECTION_STRING": "<misma cuenta existente>",
+    "AZURE_OPENAI_BASE_URL": "https://<recurso>.openai.azure.com/openai/v1/",
+    "AZURE_OPENAI_API_KEY": "",
+    "AZURE_VISION_DEPLOYMENT": "<nombre del deployment existente de GPT-6.1 Sol>",
+    "TRANSCRIPTION_PROVIDER": "supplied",
+    "MAI_AUTHORIZED": "false",
+    "SEGMENT_SECONDS": "120",
+    "FRAME_EVERY_SECONDS": "10",
+    "PIPELINE_POLL_SCHEDULE": "0 */1 * * * *"
+  }
+}

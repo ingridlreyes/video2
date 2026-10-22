@@ -1,0 +1,15 @@
+{
+  "foundry": {
+    "status": "unverified",
+    "reason": "ValueError",
+    "configuration_present": false
+  },
+  "blob": {
+    "status": "unverified",
+    "reason": "No storage endpoint/connection configured"
+  },
+  "mai": {
+    "status": "pending_authorization",
+    "reason": "MAI-Transcribe-2 pendiente de revisión y autorización; proporciona VTT/SRT/JSON"
+  }
+}

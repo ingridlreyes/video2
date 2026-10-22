@@ -1,0 +1,74 @@
+{
+  "title": "Cómo enviar un correo en Correo Demo",
+  "goal": "Enviar un mensaje mediante la interfaz ficticia Correo Demo.",
+  "prerequisites": "Tener una sesión iniciada en la plataforma y permisos para enviar mensajes.",
+  "rules_summary": "Solo voz instructora; excluir conversación informal y dudas del proceso principal.",
+  "rules": [
+    "Incluir únicamente instrucciones impartidas por el instructor previamente identificado.",
+    "Omitir comentarios, saludos e interrupciones del flujo principal.",
+    "Registrar preguntas frecuentes en un apartado separado solo si el usuario lo habilita.",
+    "Nunca documentar contraseñas, datos personales o tokens expuestos en la grabación."
+  ],
+  "steps": [
+    {
+      "title": "Crear un mensaje",
+      "instruction": "Selecciona «Nuevo correo» para abrir el editor de mensajes.",
+      "detail": "El botón se encuentra en el panel izquierdo de la bandeja.",
+      "second": 0,
+      "bbox": [
+        0.03125,
+        0.20277777777777778,
+        0.14296875,
+        0.0763888888888889
+      ],
+      "target_label": "Nuevo correo",
+      "image": "assets/paso_01.jpg",
+      "review_required": false
+    },
+    {
+      "title": "Definir el destinatario",
+      "instruction": "En el campo «Para», escribe el correo de la persona destinataria.",
+      "detail": "Confirma que el destinatario es correcto antes de continuar. Nunca uses datos reales en el ejemplo.",
+      "second": 6,
+      "bbox": [
+        0.55234375,
+        0.30972222222222223,
+        0.371875,
+        0.058333333333333334
+      ],
+      "target_label": "Campo Para",
+      "image": "assets/paso_02.jpg",
+      "review_required": false
+    },
+    {
+      "title": "Escribir asunto y mensaje",
+      "instruction": "Completa el asunto e incorpora el contenido del mensaje.",
+      "detail": "Utiliza información autorizada; verifica redacción y archivos adjuntos, si los hay.",
+      "second": 12,
+      "bbox": [
+        0.57421875,
+        0.4013888888888889,
+        0.35,
+        0.06388888888888888
+      ],
+      "target_label": "Asunto",
+      "image": "assets/paso_03.jpg",
+      "review_required": false
+    },
+    {
+      "title": "Enviar el correo",
+      "instruction": "Revisa destinatario, asunto y contenido; después selecciona «Enviar».",
+      "detail": "El envío es una acción irreversible en algunos sistemas. Valida la información antes de confirmarlo.",
+      "second": 18,
+      "bbox": [
+        0.503125,
+        0.8402777777777778,
+        0.09453125,
+        0.06805555555555555
+      ],
+      "target_label": "Enviar",
+      "image": "assets/paso_04.jpg",
+      "review_required": false
+    }
+  ]
+}

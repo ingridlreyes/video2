@@ -1,0 +1,6 @@
+{
+  "segments": [
+    {"start": 0, "end": 5, "speaker": "instructor", "text": "Ejemplo de formato: abrir la pantalla inicial."},
+    {"start": 5, "end": 10, "speaker": "instructor", "text": "Ejemplo de formato: revisar los datos visibles."}
+  ]
+}

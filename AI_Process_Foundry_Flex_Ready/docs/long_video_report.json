@@ -1,0 +1,29 @@
+{
+  "test_type": "real_local_media_synthetic_fixtures_without_ai",
+  "cases": [
+    {
+      "duration_seconds": 300,
+      "processed_seconds": 300.0,
+      "segments": 3,
+      "frames": 30,
+      "extraction_wall_seconds": 22.61,
+      "status": "passed"
+    },
+    {
+      "duration_seconds": 3600,
+      "processed_seconds": 3600.0,
+      "segments": 30,
+      "frames": 360,
+      "extraction_wall_seconds": 2.05,
+      "status": "passed"
+    },
+    {
+      "duration_seconds": 18000,
+      "processed_seconds": 18000.0,
+      "segments": 150,
+      "frames": 1800,
+      "extraction_wall_seconds": 9.8,
+      "status": "passed"
+    }
+  ]
+}
